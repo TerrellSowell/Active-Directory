@@ -8,8 +8,8 @@ This lab demonstrates how to install and configure Active Directory using Azure.
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
+- Advanced understanding of Active Dirctory concepts and Domain Controller application.
+- Proficiency in analyzing and interpreting .
 - Ability to generate and recognize attack signatures and patterns.
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
