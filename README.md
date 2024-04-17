@@ -20,6 +20,8 @@ This lab demonstrates how to install and configure Active Directory using Azure.
 - Remote Desktop
 - Active Directory Domain Services
 - Powershell
+- Windows Server 2022
+- Windows 10
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
