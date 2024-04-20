@@ -23,10 +23,11 @@ This lab demonstrates how to install and configure Active Directory using Azure.
 - Windows 10
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+* **Step 1: Set up resources in Azure**<p>
+  - Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+      - Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+  - Set Domain Controller’s NIC Private IP address to be static
+  - Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a
+  - Ensure that both VMs are in the same Vnet
+![set Domain Controller's NIC Private IP to static](https://github.com/TerrellSowell/Active-Directory/assets/161978506/c08b1a43-da8e-466a-a172-cf58eeb76af4)
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
