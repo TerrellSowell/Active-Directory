@@ -16,7 +16,6 @@ This lab demonstrates how to install and configure Active Directory using Azure.
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- Powershell
 - Windows Server 2022
 - Windows 10
 
