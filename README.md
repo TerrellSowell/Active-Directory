@@ -65,7 +65,9 @@ OUs act like folders that hold information, privileges, and login access of user
  - Add James_admin to the “Domain Admins” Security Group
  - Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\james_admin”
  - User james_admin as your admin account from now on<p>
- ![created new admin](https://github.com/TerrellSowell/Active-Directory/assets/161978506/39a149c2-0de6-4efa-b39d-9a6cf27b6e63)
+ ![created new admin](https://github.com/TerrellSowell/Active-Directory/assets/161978506/39a149c2-0de6-4efa-b39d-9a6cf27b6e63)<p>
+
+* **The photo shown below is granting James admin privileges. Using the Security Group, right click on the user and open their Properties. Click "Member Of" tap then click "Add" to apply to the appropriate security group.**
 ![add admin permissions](https://github.com/TerrellSowell/Active-Directory/assets/161978506/e8c5e828-d80d-40fa-aebe-ec8231bf838d)
 
 
