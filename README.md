@@ -12,7 +12,7 @@ This lab demonstrates how to install and configure Active Directory using Azure.
 - Enhanced knowledge of network protocols (DNS) and security procedures (Firewalls).
 - Development of critical thinking and problem-solving skills in Microsoft Applications.
 
-### Environemt and Tools Used<h2>
+### Environment and Tools Used<h2>
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
