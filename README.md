@@ -68,7 +68,26 @@ OUs act like folders that hold information, privileges, and login access of user
  ![created new admin](https://github.com/TerrellSowell/Active-Directory/assets/161978506/39a149c2-0de6-4efa-b39d-9a6cf27b6e63)<p>
 
 * **The photo shown below is granting James admin privileges. Using the Security Group, right click on the user and open their Properties. Click "Member Of" tap then click "Add" to apply to the appropriate security group.**
-![add admin permissions](https://github.com/TerrellSowell/Active-Directory/assets/161978506/e8c5e828-d80d-40fa-aebe-ec8231bf838d)
+![add admin permissions](https://github.com/TerrellSowell/Active-Directory/assets/161978506/e8c5e828-d80d-40fa-aebe-ec8231bf838d)<p>
+
+* **Step 5: Join Client-1 to your domain (TerrellSowell.com)** <p>
+First, configure the Domain Name System (DNS) server. Go to the Domain Controller VM in the Azure Portal and go to "Networking" then go to the link listed next to Network Interface. Head to "DNS Servers" under settings, and set the DNS Server to Custom. Then, enter the domain controller's private IP address and save the changes. Restart the client VM in order to ensure the DNS changes are saved. Next, in the System menu of the client VM, click on "Rename this PC (advanced)" and Change. Enter the domain and necessary credentials in order to let the client join the domain (logging in as james_admin). It is important to note that the login credentials have to be input within the context of the domain path (TerrellSowell.com\james_admin).
+  - From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+  - From the Azure Portal, restart Client-1
+  - Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
+  - Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+![add pc to domain](https://github.com/TerrellSowell/Active-Directory/assets/161978506/43771f7d-3c38-41d4-963f-1d9de2850f26)
+![DNS for client1](https://github.com/TerrellSowell/Active-Directory/assets/161978506/50c1a467-109b-491a-a280-5554985143f0)
+![DNS2](https://github.com/TerrellSowell/Active-Directory/assets/161978506/01dfbc36-5c61-4f99-8951-3ecec990f0db)
+![client1 added to DC](https://github.com/TerrellSowell/Active-Directory/assets/161978506/491fdade-e95e-4ad8-8e80-c2515171f65e)
+![remote in ](https://github.com/TerrellSowell/Active-Directory/assets/161978506/9c777c97-22d2-43c0-8c6d-66401f09bb94)
+![adding remote users](https://github.com/TerrellSowell/Active-Directory/assets/161978506/44ea79ca-c2c6-4ef2-ad88-3126cc0cd5a5)
+![remote users that can log in](https://github.com/TerrellSowell/Active-Directory/assets/161978506/9568c0d9-99f1-4d4e-aabc-8acf5020b922)
+
+
+
+
+
 
 
 
