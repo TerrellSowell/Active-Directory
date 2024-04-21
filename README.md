@@ -44,7 +44,8 @@ Logging into the Domain Controller VM, go to the Windows Defender Firewall with 
 ![enable rule inbound](https://github.com/TerrellSowell/Active-Directory/assets/161978506/8375af5e-e99f-4564-b05f-ce05dc17d3db)
 ![successful reply](https://github.com/TerrellSowell/Active-Directory/assets/161978506/3dd104dd-cb4c-4c1a-aa2c-41e231b293a5)<p>
 
-* **Step 3: Install Active Directory**<p>
+* **Step 3: Install Active Directory on Domain Controller**<p>
+In your Domain Controller VM, go to the Server Manager Dashboard and click on Add Roles and Features. Go through the installation process and upon getting to Server Roles, make sure to check the box for Active Directory Domain Services. Once installed, I now have to promote the server into a domain controller. To do so, you may notice a warning notification on the top right where the flag icon is. Click on that flag and click Promote this server to a domain controller. Click on Add a new forest and specify a domain name. For this tutorial, I named the domain TerrellSowell.com, created the password, and proceed with the install. Noted, you will be automatically signed out, re-log in through Remote Desktop, and installation is fully completed! 
   - Login to DC-1 and install Active Directory Domain Services
   - Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
   - Restart and then log back into DC-1 as user: mydomain.com\labuser
