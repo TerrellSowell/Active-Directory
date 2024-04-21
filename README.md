@@ -7,14 +7,12 @@
 This lab demonstrates how to install and configure Active Directory using Azure. I used two virtual machines on Azure that are on the same virtual network. One VM I installed Active Directory and configured it to be the Domain Controller and the other VM I used as a client. Then, I configured the Active Directory to allow the client to join the domain as well as creating user accounts using a Powershell script. This Active Directoy Lab project aimed to establish a controlled environment for simulating, troubleshooting,  both System Administrator and I.T. helpdesk functionality in a later lab.
 
 ### Skills Learned<h2>
-
 - Advanced understanding of Active Directory concepts and Domain Controller application.
 - Ability to generate and recognize attack signatures and patterns.
 - Enhanced knowledge of network protocols (DNS) and security procedures (Firewalls).
 - Development of critical thinking and problem-solving skills in Microsoft Applications.
 
 ### Environemt and Tools Used<h2>
-
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
