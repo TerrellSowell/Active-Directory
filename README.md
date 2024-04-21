@@ -33,7 +33,29 @@ Not shown in the photos belows are the setup of two virtual machines in Azure
 ![set Domain Controller's NIC Private IP to static](https://github.com/TerrellSowell/Active-Directory/assets/161978506/c08b1a43-da8e-466a-a172-cf58eeb76af4)
 ![static 2](https://github.com/TerrellSowell/Active-Directory/assets/161978506/06d6d23e-7791-4724-90b7-7d391fcf4a15)
 ![dynamic](https://github.com/TerrellSowell/Active-Directory/assets/161978506/be559454-a23c-4ac5-b901-98abf1f9d4d1)
-![static](https://github.com/TerrellSowell/Active-Directory/assets/161978506/c50043d7-ed64-4c17-bca9-d6e405fac0ba)
+![static](https://github.com/TerrellSowell/Active-Directory/assets/161978506/c50043d7-ed64-4c17-bca9-d6e405fac0ba)<p>
+
+* **Step 2: Ensure Connectivity between the client and Domain Controller**<p>
+  - Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping) you will get a timeout due to the Domain's firewall settings.(Not shown in photos)
+  - Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
+  - Check back at Client-1 to see the ping succeed
+![firewall](https://github.com/TerrellSowell/Active-Directory/assets/161978506/7c39ef29-551c-4269-8d99-59d5af4abec0)
+![enable rule inbound](https://github.com/TerrellSowell/Active-Directory/assets/161978506/8375af5e-e99f-4564-b05f-ce05dc17d3db)
+![successful reply](https://github.com/TerrellSowell/Active-Directory/assets/161978506/3dd104dd-cb4c-4c1a-aa2c-41e231b293a5)<p>
+
+* **Step 3: Install Active Directory**<p>
+  - Login to DC-1 and install Active Directory Domain Services
+  - Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+  - Restart and then log back into DC-1 as user: mydomain.com\labuser
+
+
+
+
+
+
+
+
+
 
 
 
