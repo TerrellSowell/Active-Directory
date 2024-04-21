@@ -10,8 +10,8 @@ This lab demonstrates how to install and configure Active Directory using Azure.
 
 - Advanced understanding of Active Directory concepts and Domain Controller application.
 - Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Enhanced knowledge of network protocols (DNS) and security procedures (Firewalls).
+- Development of critical thinking and problem-solving skills in Microsoft Applications.
 
 ### Tools and Environement Used
 
