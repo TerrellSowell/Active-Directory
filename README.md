@@ -54,6 +54,12 @@ In your Domain Controller VM, go to the Server Manager Dashboard and click on Ad
 ![installAD](https://github.com/TerrellSowell/Active-Directory/assets/161978506/8945b953-e81d-453a-80c4-cf0f6090fcef)
 ![installAD3](https://github.com/TerrellSowell/Active-Directory/assets/161978506/29b99aa4-d67e-46b8-a0ed-c3059e38dbe6)
 ![intallAD4](https://github.com/TerrellSowell/Active-Directory/assets/161978506/80822df9-efa5-4af4-9af6-d5930997b6b7)
+* **Important Log In Note:** When logging back in to the domain controller VM through Remote Desktop Connection, it is important to log in with the context of the domain.
+Type out the domain path and then the name of the user. For example: mydomain.com/labuser.
+
+* **Step 4: Create an Admin and Normal User Account in Active Directory**<p>
+
+
 
 
 
