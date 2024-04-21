@@ -58,6 +58,19 @@ In your Domain Controller VM, go to the Server Manager Dashboard and click on Ad
 Type out the domain path and then the name of the user. For example: mydomain.com/labuser.
 
 * **Step 4: Create an Admin and Normal User Account in Active Directory**<p>
+OUs act like folders that hold information, privileges, and login access of users in the active directory.
+ - In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+ - Create a new OU named “_ADMINS”
+ - Create a new employee named “Lebron James” (same password) with the username of “James_admin”
+ - Add James_admin to the “Domain Admins” Security Group
+ - Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\james_admin”
+ - User james_admin as your admin account from now on<p>
+ ![created new admin](https://github.com/TerrellSowell/Active-Directory/assets/161978506/39a149c2-0de6-4efa-b39d-9a6cf27b6e63)
+![add admin permissions](https://github.com/TerrellSowell/Active-Directory/assets/161978506/e8c5e828-d80d-40fa-aebe-ec8231bf838d)
+
+
+
+
 
 
 
