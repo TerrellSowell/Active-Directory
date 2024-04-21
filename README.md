@@ -49,6 +49,12 @@ In your Domain Controller VM, go to the Server Manager Dashboard and click on Ad
   - Login to DC-1 and install Active Directory Domain Services
   - Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
   - Restart and then log back into DC-1 as user: mydomain.com\labuser
+![install AD](https://github.com/TerrellSowell/Active-Directory/assets/161978506/56cb26ea-9d42-4733-8004-212e455da7b0)
+![install AD2](https://github.com/TerrellSowell/Active-Directory/assets/161978506/9529ee16-1e84-4c4a-a9ae-6286adb01233)
+![installAD](https://github.com/TerrellSowell/Active-Directory/assets/161978506/8945b953-e81d-453a-80c4-cf0f6090fcef)
+![installAD3](https://github.com/TerrellSowell/Active-Directory/assets/161978506/29b99aa4-d67e-46b8-a0ed-c3059e38dbe6)
+![intallAD4](https://github.com/TerrellSowell/Active-Directory/assets/161978506/80822df9-efa5-4af4-9af6-d5930997b6b7)
+
 
 
 
