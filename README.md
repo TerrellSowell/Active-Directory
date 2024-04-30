@@ -13,7 +13,7 @@ This lab demonstrates how to install and configure Active Directory using Azure.
 - Development of critical thinking and problem-solving skills in Microsoft Applications.
 
 ### Tools and Technology Used<h2>
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Active Directory Domain Services
 - Windows Server 2022
